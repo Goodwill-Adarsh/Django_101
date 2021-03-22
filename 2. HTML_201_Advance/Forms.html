@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<h1>Feedback Form</h1>
+<p>We would like to hear your thoughts, suggestion, concern or problems with anything so we could improve! </p>
+
+<hr>
+
+<form>
+    <p>Feedback type</p>
+
+    <label for="Comments">Comments</label>
+    <input id="Comments" type="radio" name="feedback_type">
+
+    <label for="Suggestions">Suggestion</label>
+    <input id="Suggestions" type="radio" name="feedback_type">
+
+    <label for="Questions">Questions</label>
+    <input id="Questions" type="radio" name="feedback_type">
+
+    <br>
+    <br>
+
+    How was our service?
+
+    <select name="Stars">
+        <option value=5>Great</option>
+        <option value=4>Good</option>
+        <option value=3>Okay</option>
+        <option value=2>Poor</option>
+        <option value=1>Bad</option>
+
+    </select>
+
+    <p>Describe your feedback:</p>
+    <textarea name="feedback" rows="5" cols="40"></textarea>
+
+
+    <p>Name
+        <input type="text">
+    </p>
+
+    <p>Email
+        <input type="email">
+    </p>
+
+    <input type="submit" value="submit">
+
+
+</form>
+
+
+</body>
+</html>
