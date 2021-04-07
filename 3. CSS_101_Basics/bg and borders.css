@@ -1,0 +1,22 @@
+body {
+    background-image: url("../100. Sample/sample.png");
+    /*background-color: lightslategray;*/
+}
+
+div {
+    background-color: orange;
+
+    border-color: blue;
+    border-width: 3px;
+    border-style: double;
+}
+
+p {
+    color: white;
+}
+
+span {
+    background: red;
+    color: yellow;
+
+}
